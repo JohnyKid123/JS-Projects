@@ -1,1 +1,1 @@
-Java Script Soft Uni Course and Projects.
+Java Script Corse by Soft Uni
