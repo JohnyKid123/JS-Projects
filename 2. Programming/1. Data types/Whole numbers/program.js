@@ -1,0 +1,14 @@
+const num = -100;
+const num1 = 128;
+const num2 = -3540;
+const num3 = 64876;
+const num4 = 2147483648;
+const num5 = -1141583228;
+const num6 = -1223372036854775808;
+console.log(num);
+console.log(num1);
+console.log(num2);
+console.log(num3);
+console.log(num4);
+console.log(num5);
+console.log(num6);
