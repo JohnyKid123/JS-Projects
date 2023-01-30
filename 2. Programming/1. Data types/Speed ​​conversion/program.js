@@ -1,0 +1,11 @@
+const distance = parseFloat(prompt("Enter the distance: "));
+const hours = parseInt(prompt("Enter the number of hours: "));
+const minutes = parseInt(prompt("Enter the number of minutes: "));
+const seconds = parseInt(prompt("Enter the number of seconds: "));
+const totalSeconds = hours * 3600 + minutes * 60 + seconds;
+const metersPerSecond = distance / totalSeconds;
+const kilometersPerHour = (distance / 1000) / (totalSeconds / 3600);
+const milesPerHour = kilometersPerHour / 1.609;
+console.log(metersPerSecond);
+console.log(kilometersPerHour);
+console.log(milesPerHour);
